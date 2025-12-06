@@ -1,6 +1,6 @@
  
 :root {
-    --primary-bg: #0d633c;       
+    --primary-bg: #30a4bb;       
     --header-gradient: linear-gradient(135deg, #3fec7e 0%, #25de63 99%, #70e2a4 100%); 
     --header-bg: #ff7e5f;        
     --text-color: #2d3436;       
@@ -29,7 +29,15 @@ header {
     padding: 50px 20px;
     position: relative;
 }
-
+.education-life {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
 .profile-photo {
     width: 160px;
     height: 160px;
